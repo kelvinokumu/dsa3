@@ -6,7 +6,6 @@ student = {
 
 print(f"  Number of items: {len(student)}")
 
-
 # Looping Through a Dictionary
 for key in student:
     print(f"  {key}: {student[key]}")
@@ -26,7 +25,7 @@ school = {
 }
 
 # Nested Dictionary
-print(f"  student2's age: {school['student2']['age']}")
+print(f"  student2's age: {school['student1']['age']}")
 
 
 

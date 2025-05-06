@@ -13,7 +13,7 @@ print(f"  After adding 5: {my_set}")
 
 # Error if element not found
 # my_set.remove(112)
-print(f"  After removing 112: {my_set}")
+# print(f"  After removing 112: {my_set}")
 
 # No error if element not found
 my_set.discard(112)

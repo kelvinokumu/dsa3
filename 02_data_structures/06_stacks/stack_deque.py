@@ -7,7 +7,7 @@ stack.append(100)
 stack.append(200)
 stack.append(300)
 
-print(f"  Stack (deque): {list(stack)}")
+# print(f"  Stack (deque): {list(stack)}")
 
 item = stack.pop()
 print(f"  Popped from deque: {item}")
@@ -34,16 +34,16 @@ print(f"  After popleft(): {list(stack)}")
 
 print(f"  Front item: {stack[0]}")
 print(f"  Rear item: {stack[-1]}")
-
-
-# Rotate Elements
-stack.rotate(1)  # Moves last element to front
-print(f"  After rotate(1): {list(stack)}")
-
-stack.rotate(-2)  # Moves front two elements to end
-print(f"  After rotate(-2): {list(stack)}")
-
-# Clear Deque
+#
+#
+# # Rotate Elements
+# stack.rotate(1)  # Moves last element to front
+# print(f"  After rotate(1): {list(stack)}")
+#
+# stack.rotate(-2)  # Moves front two elements to end
+# print(f"  After rotate(-2): {list(stack)}")
+#
+# # Clear Deque
 stack.clear()
 print(f"  After clear(): {list(stack)}")
 

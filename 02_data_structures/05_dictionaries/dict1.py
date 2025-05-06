@@ -4,7 +4,7 @@ student = {
     "grade": "A"
 }
 
-print(f"  student: {student}")
+print(f" student: {student}")
 
 # Accessing Values
 print(f"  Name: {student['name']}")           # Alice

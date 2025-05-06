@@ -28,5 +28,6 @@ for item in a:
     print(f"  Item: {item}")
 
 nums = [1, 2, 2, 3, 4, 4]
+print(f" List with duplicated: {nums}")
 unique_nums = set(nums)
-print(f"  Unique elements: {unique_nums}")
+print(f" Unique elements: {unique_nums}")
