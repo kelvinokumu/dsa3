@@ -9,7 +9,7 @@ def get_values(items, key):
     return -1
 
 # Generate 10 unique random numbers from 1 to 100
-random_values = random.sample(range(1, 101), 10)
+random_values = random.sample(range(-10, 1), 10)
 print("Random values:", random_values)
 
 # Get value to search from the user
@@ -17,6 +17,7 @@ key = int(input("Enter number to search: "))
 result = get_values(random_values, key)
 
 # result
+# get the index of the value
 if result != -1:
     print(f"Value {random_values[result]} found at index {result}")
 else:

@@ -1,6 +1,7 @@
 import random
 
 def binary_search_recursive(inputs, target_search, low, high):
+    # Base case
     # check if there are values
     if low > high:
         return -1
@@ -10,6 +11,7 @@ def binary_search_recursive(inputs, target_search, low, high):
     # print(f"The middle element is {values[mid]}")
 
     if inputs[mid] == target_search:
+        # print()
         return mid
     elif inputs[mid] < target_search:
         return binary_search_recursive(inputs, target_search, mid + 1, high)
@@ -19,6 +21,7 @@ def binary_search_recursive(inputs, target_search, low, high):
 
 # Generate 10 random integers between 1 and 100
 values = sorted([random.randint(1, 100) for _ in range(10)])
+print(f"Check the data type {type(values)}")
 print("Ordered:", values)
 
 

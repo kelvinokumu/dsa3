@@ -15,9 +15,9 @@ for key, value in student.items():
     print(f"  {key} => {value}")
 
 # Dictionary Keys, Values, Items
-print(f"  Keys: {list(student.keys())}")
-print(f"  Values: {list(student.values())}")
-print(f"  Items: {list(student.items())}")
+print(f"\n  Keys: {list(student.keys())}")
+print(f"\n  Values: {list(student.values())}")
+print(f"\n  Items: {list(student.items())} \n")
 
 school = {
     "student1": {"name": "Alice", "age": 20},
